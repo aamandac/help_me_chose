@@ -15,6 +15,19 @@
     </div>
     <button class="addOption">Add</button> <!-- knapp där jag kan lägga till fler inputs -->
   </div>
+  <div class="resultSection"></div>
   <button class="go">Go!</button> <!-- knapp efter hela frågeslingan. talar om att vi är klara. -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <!-- i script-tagen lägger vi in javascript. scr talar om källan som vi vill hämta scriptet från.-->
+<script>
+$(function() {
+  $('.resultSection').hide()
+
+  var add_option = function() {
+    $('.inputs').append('<input></input>')
+  }
+  $('.addOption').click(add_option)
+})
+</script>
 </body>
 </html>
