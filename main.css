@@ -4,12 +4,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-top: 150px;
-background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
-
 }
 
 h1 {
-  background-color: #8E1D41;
   font-weight: lighter;
   font-size: 40px;
   letter-spacing: 2px;
@@ -17,13 +14,11 @@ h1 {
 }
 
 h2 {
-  background-color: #A40A3C;
   font-weight: lighter;
   font-size: 20px;
   letter-spacing: 2.5px;
-  margin-bottom: -5px;
+  margin-bottom: 5px;
   margin-top: 5px;
-
 }
 
 input {
@@ -31,13 +26,12 @@ font-family: "Courier New", Times, serif;
 }
 
 button {
-background-color: lightpink;
-opacity: 0.7;
+background-color: lightgrey;
+opacity: 0.8;
 border: none;
 font-family: "Courier New", Times, serif;
 font-size: 13px;
 padding: 10px 20px;
-
 }
 
 .inputSection {
