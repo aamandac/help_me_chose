@@ -3,6 +3,7 @@
 <head>
   <meta charset=utf-8>
   <title> Help me choose </title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   <link href="./main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -17,17 +18,16 @@
   </div>
   <div class="resultSection"></div>
   <button class="go">Go!</button> <!-- knapp efter hela frågeslingan. talar om att vi är klara. -->
-
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <!-- i script-tagen lägger vi in javascript. scr talar om källan som vi vill hämta scriptet från.-->
 <script>
 $(function() {
   $('.resultSection').hide()
-
   var add_option = function() {
     $('.inputs').append('<input></input>')
   }
   $('.addOption').click(add_option)
 })
+
 </script>
 </body>
 </html>
